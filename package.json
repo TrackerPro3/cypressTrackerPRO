@@ -1,0 +1,31 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "static:11:1": "npm run test --config url=https://azrtprel11.trackerpro.cc/11.1.00/Authentication/Login.aspx",
+    "quebec": "npm run test -- --env url=https://azrtpqaw19v3.trackerpro.cc/Quebec/Authentication/Login.aspx --headed --browser chrome",
+    "kilo": "npm run test -- --env url=https://azrtpqaw19v3.trackerpro.cc/Kilo/Authentication/Login.aspx --headed --browser chrome",
+    "echo": "npm run test -- --env url=https://azrtpqaw22.trackerpro.cc/Echo/Authentication/Login.aspx --headed --browser chrome",
+    "alfa": "npm run test -- --env url=https://azrtpqaw19v2.trackerpro.cc/Alfa/Authentication/Login.aspx --headed --browser chrome",
+    "lima": "npm run test -- --env url=https://azrtpqaw19v2.trackerpro.cc/Lima/Authentication/Login.aspx --headed --browser chrome",
+    "hotel": "npm run test -- --env url=https://azrtpqaw22.trackerpro.cc/Hotel/Authentication/Login.aspx --headed --browser chrome",
+    "charlie": "npm run test -- --env url=https://azrtpqaw22.trackerpro.cc/Charlie/Authentication/Login.aspx --headed --browser chrome",
+    "India": "npm run test -- --env url=https://azrtpqaw22.trackerpro.cc/India/Authentication/Login.aspx --headed --browser chrome",
+    "oscar": "npm run test -- --env url=https://azrtpqaw19v3.trackerpro.cc/Oscar/Authentication/Login.aspx --headed --browser chrome",
+    "golf": "npm run test -- --env url=https://azrtpqaw19v2.trackerpro.cc/Golf/Authentication/Login.aspx --headed --browser chrome",
+    "november": "npm run test -- --env url=https://azrtpqaw19v3.trackerpro.cc/November/Authentication/Login.aspx --headed --browser chrome",
+    "juliett": "npm run test -- --env url=https://azrtpqaw19v2.trackerpro.cc/Juliett/Authentication/Login.aspx --headed --browser chrome",
+    "foxtrot": "npm run test -- --env url=https://azrtpqaw22.trackerpro.cc/Foxtrot/Authentication/Login.aspx --headed --browser chrome",
+
+    "dashboard": "npm run quebec -- --record --key 13f70aa4-1b0a-4bad-ae36-e8d160dab5b6"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "crypto-js": "^4.1.1",
+    "cypress": "^12.17.2"
+  }
+}

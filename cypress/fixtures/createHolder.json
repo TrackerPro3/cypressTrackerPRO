@@ -1,0 +1,21 @@
+{
+  "Brokerage" : "Brokerage",
+  "Corporation" : "Corporation",
+  "Financial Organization": "Financial Organization",
+  "Life Insurance Company": "Life Insurance Company",
+  "Mutual Fund Company": "Mutual Fund Company",
+  "Non Life Insurance Company": "Non Life Insurance Company",
+  "Petroleum Company":"Petroleum Company",
+  "Utility Company": "Utility Company",
+  "HolderName":"Holder",
+  "Entity": "Entity",
+  "FEIN": "2564",
+  "Address1":"Address1 block",
+  "City":"New York",
+  "AK":"AK - Alaska",
+  "Zip": "92872",
+  "IS_AK": "AK - Alaska",
+  "IS_CA" :"CA - California"
+}
+
+
